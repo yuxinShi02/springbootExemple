@@ -1,24 +1,26 @@
 package com.yuxin.springboot.service;
 
-import java.lang.annotation.Annotation;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.stereotype.Service;
-import com.yuxin.springboot.service.*;
 import com.yuxin.springboot.dao.ReservationDao;
 import com.yuxin.springboot.entity.Reservation;
 
 @Service
-public class ServiceImpl implements com.yuxin.springboot.service.Service{
+@EntityScan("com.yuxin.springboot.dao")
+public class ServiceImpl implements ServiceReserv{
 	@Autowired
 	private ReservationDao rsvdao;
 	
 	public List<Reservation> findAllReservation(){
+		System.out.println("ServiceImpl findone invoked.");
 		return rsvdao.findAllReservation();
 	}
 
 	public Reservation findById(Integer id){
+		System.out.println("ServiceImpl findall invoked.");
 		return rsvdao.findById(id);
 	}
 	

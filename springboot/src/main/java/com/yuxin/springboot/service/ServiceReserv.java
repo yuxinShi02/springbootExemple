@@ -4,7 +4,8 @@ import java.util.List;
 
 import com.yuxin.springboot.entity.Reservation;
 
-public interface Service {
+
+public interface ServiceReserv {
 	 	List<Reservation> findAllReservation();
 	 
 	 	Reservation findById(Integer id);
