@@ -59,6 +59,11 @@ public class Reservation implements Serializable {
 	public void setType(String type) {
 		this.type = type;
 	}
+
+	@Override
+	public String toString() {
+		return "Reservation [id=" + id + ", name=" + name + ", status=" + status + ", type=" + type + "]";
+	}
 	
 	
 }
