@@ -38,12 +38,6 @@
     			 <version>3.8.1</version>
     			 <scope>test</scope>
             </dependency> 
-            
-            <dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>com.springboot.common</artifactId>
-				<version>${project.version}</version>
-			</dependency>
 	</dependencies> 
 	<build>
 		<plugins>
@@ -59,5 +53,6 @@
     <module>com.springboot.web</module>
     <module>com.springboot.common</module>
     <module>com.springboot.dao</module>
-  </modules>
+    <module>com.springboot.test</module>
+	</modules>
 </project>

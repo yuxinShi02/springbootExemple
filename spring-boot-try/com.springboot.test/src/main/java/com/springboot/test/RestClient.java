@@ -1,4 +1,4 @@
-package com.springboot.client;
+package com.springboot.test;
 
 import java.sql.Date;
 
