@@ -9,8 +9,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.springboot.entity.Reservation;
-import com.springboot.entity.Salle;
+import com.springboot.common.Reservation;
+import com.springboot.common.Salle;
 
 public class RestClient {
 	   public String getByIdReserv(int id) {
