@@ -9,12 +9,9 @@ public class Salle implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	
-//	@Id
-//	@GeneratedValue(strategy=GenerationType.AUTO)
-//	@Column(name="salle_id")
+
 	private int salle_id;
-//	
-//	@Column(name="salle_name")
+
 	private String salle_name;
 	
 	private List<Date> timeStamp;

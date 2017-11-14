@@ -8,9 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
-  <groupId>com.springboot.secondtry</groupId>
+  
   <artifactId>com.springboot.service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>com.springboot.service</name>
   <url>http://maven.apache.org</url>
   

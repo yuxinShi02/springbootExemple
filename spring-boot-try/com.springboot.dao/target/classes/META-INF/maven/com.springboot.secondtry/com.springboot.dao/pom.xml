@@ -7,13 +7,13 @@
     <artifactId>spring-boot-try</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.springboot.secondtry</groupId>
+  
   <artifactId>com.springboot.dao</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>com.springboot.dao</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <start-class>com.springboot</start-class>
   </properties>
   <dependencies>
   	<dependency>
@@ -29,4 +29,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
 </project>

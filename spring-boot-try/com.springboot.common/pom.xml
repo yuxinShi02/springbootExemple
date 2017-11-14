@@ -7,15 +7,16 @@
     <artifactId>spring-boot-try</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.springboot.secondtry</groupId>
   <artifactId>com.springboot.common</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>com.springboot.common</name>
   <url>http://maven.apache.org</url>
   <packaging>jar</packaging>
   <properties>
+	<jdk.version>1.8</jdk.version>
+	<start-class>com.springboot</start-class>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -24,4 +25,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
 </project>

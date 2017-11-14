@@ -7,9 +7,8 @@
     <artifactId>spring-boot-try</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.springboot.secondtry</groupId>
+  
   <artifactId>com.springboot.controller</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>com.springboot.controller</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -26,6 +25,7 @@
 		<artifactId>com.springboot.service</artifactId>
 		<version>${project.version}</version>
 	</dependency>
+	
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
